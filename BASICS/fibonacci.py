@@ -1,0 +1,13 @@
+def Fibonacci_num(n):
+    if n==1 or n==2:
+        return 1
+    a,b=1,1
+    for i in range(3,n+1):
+         a,b=b,a+b
+    return b
+
+inp=int(input("Enter the number: "))
+res=Fibonacci_num(inp)
+print(res)
+    
+
