@@ -5,6 +5,5 @@ def pattern(n):
     for i in range(n-1,0,-1):
         print("* " *i)
         
-
 inp=int(input("Enter the number: "))
 pattern(inp)
