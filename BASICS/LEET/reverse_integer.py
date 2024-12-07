@@ -7,6 +7,5 @@ class Solution:
             digit=x%10
             reversed_num=reversed_num*10+ digit
             x=x//10
-        
-        reversed_num*=sign
+            reversed_num*=sign
         return 0 if reversed_num>2**31 - 1 or reversed_num<-2**31 else reversed_num
